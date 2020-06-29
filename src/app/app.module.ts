@@ -9,12 +9,14 @@ import { MenuComponent } from './menu/menu.component';
 import { UsuariosModule } from './usuarios/usuarios.module';
 import { PostsModule } from './posts/posts.module';
 import { BotonPanicoComponent } from './boton-panico/boton-panico.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    BotonPanicoComponent
+    BotonPanicoComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
