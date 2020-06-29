@@ -16,16 +16,7 @@ export class UsuariosComponent implements OnInit {
   usuarios: Usuario[];
 
   ngOnInit(): void {
-    this.webApiService
-    .obtenerUsuarios()
-    .subscribe(
-      (usuarioDelApi: Usuario[]) => this.usuarios = usuarioDelApi,
-      error => console.error(error)
-    );
-  }
 
-  verPosts(idUsuario: number) {
-    this.router.navigate(["/usuarios", idUsuario, 'posts']);
   }
 
 }
