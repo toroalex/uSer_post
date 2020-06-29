@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { UsuariosModule } from './usuarios/usuarios.module';
 import { PostsModule } from './posts/posts.module';
+import { BotonPanicoComponent } from './boton-panico/boton-panico.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    BotonPanicoComponent
   ],
   imports: [
     BrowserModule,
